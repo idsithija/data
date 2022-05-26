@@ -1,0 +1,61 @@
+.p-home
+{
+    .create-page
+    {
+        display: flex;
+        justify-content: flex-end;
+        margin: 20px 0px;
+    }
+    .page-list
+    {
+        border: 1px solid #333333;
+
+        ul
+        {
+            display: flex;
+            justify-content: space-between;
+            li
+            {
+                width: 100%;
+                padding: 10px;
+                border-right: 1px solid #333333;
+                text-align: center;
+
+                &:last-child
+                {
+                    border: none;
+                }
+            }
+        }
+
+        .page-details
+        {
+            border-top: 1px solid #333333;
+            .page-data
+            {
+                display: flex;
+                justify-content: space-between;
+
+                .data
+                {
+                    width: 100%;
+                    text-align: center;
+                    border-right: 1px solid #333333;
+                    padding: 10px;
+                    display: flex;
+                    justify-content: center;
+
+                    &:last-child
+                    {
+                        border: none;
+                    }
+
+                    span
+                    {
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+}

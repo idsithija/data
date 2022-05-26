@@ -1,0 +1,20 @@
+.p-create-page
+{
+    .wp-create-page
+    {
+        display: flex;
+        column-gap: 100px;
+
+        input
+        {
+            flex: 1;
+        }
+    }
+
+    .create-area
+    {
+        display: flex;
+        justify-content: flex-end;
+        margin: 20px 0;
+    }
+}
